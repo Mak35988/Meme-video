@@ -18,13 +18,6 @@ package com.examples.youtubeapidemo;
 
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 
-import com.google.android.youtube.player.YouTubeInitializationResult;
-import com.google.android.youtube.player.YouTubePlayer;
-import com.google.android.youtube.player.YouTubePlayer.PlayerStyle;
-import com.google.android.youtube.player.YouTubePlayerFragment;
-import com.google.android.youtube.player.YouTubeThumbnailLoader;
-import com.google.android.youtube.player.YouTubeThumbnailView;
-
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.Dialog;
@@ -41,6 +34,12 @@ import android.widget.Toast;
 
 import com.examples.youtubeapidemo.ui.FlippingView;
 import com.examples.youtubeapidemo.ui.ImageWallView;
+import com.google.android.youtube.player.YouTubeInitializationResult;
+import com.google.android.youtube.player.YouTubePlayer;
+import com.google.android.youtube.player.YouTubePlayer.PlayerStyle;
+import com.google.android.youtube.player.YouTubePlayerFragment;
+import com.google.android.youtube.player.YouTubeThumbnailLoader;
+import com.google.android.youtube.player.YouTubeThumbnailView;
 
 /**
  * A demo application aimed at showing the capabilities of the YouTube Player API.  It shows a video
