@@ -1,0 +1,123 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.mayurrai.youtubepaisa"
+        minSdk 21
+        targetSdk 32
+
+    ///////////////// manish ke mobile ke liye ///////////////////
+        multiDexEnabled true
+        
+
+    /////////////////////////////////////////////////////////
+
+        versionCode 2
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    buildToolsVersion '32.0.0'
+    compileSdkVersion 32
+}
+
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'com.google.ar.sceneform:filament-android:1.17.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'org.jetbrains:annotations:23.0.0'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.google.firebase:firebase-database:20.0.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+//    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.23'
+//    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.23'
+
+    ////////////////////////////// for youtube playyer ////////////////////////////////////////
+
+   // implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5'
+
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1'
+
+
+    ////////////////////////////// for youtube playyer ////////////////////////////////////////
+
+
+    implementation 'com.google.android.material:material:1.6.0-alpha02'
+
+/////////// for bottom sheet ///////////
+
+    implementation 'com.google.android.material:material:1.6.0-alpha02'
+
+/////////// for google signing ////////////////////
+
+    implementation 'com.google.android.gms:play-services-auth:20.0.1'
+
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+
+    /////////////////////////////// vdeo view pager2 for video swipe /////////////////
+
+//    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+
+    implementation 'com.google.android.material:material:1.5.0'
+
+
+    //////////////// for rounded shape image ////////////
+
+    implementation 'com.google.android.material:material:1.6.0-alpha02'
+
+    ////////////////// for manish ke mobile ke liye //////////////////
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.android.support:multidex:1.0.3'
+
+
+    /////////////////// for cache memory //////////////////
+
+   // implementation 'com.danikula:videocache:2.7.1'
+
+ //   implementation 'com.mindorks.android:prdownloader:0.6.0'
+
+//    implementation 'com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT'
+
+
+    /////////////////////// for music like animation ////////////////
+
+    implementation 'com.taishi-y:musicindicator:0.1.0'
+
+
+    implementation 'com.mikhaellopez:circularimageview:4.3.0'
+
+
+    implementation platform('com.google.firebase:firebase-bom:29.0.3')
+    implementation 'com.google.firebase:firebase-analytics'
+
+
+
+}

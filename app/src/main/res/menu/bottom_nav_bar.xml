@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:id="@+id/comment"-->
+<!--        android:icon="@drawable/ic_baseline_comment_24"-->
+<!--        android:title="comment" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/like"-->
+<!--        android:icon="@drawable/ic_baseline_favorite_24"-->
+<!--        android:title=""-->
+<!--        />-->
+
+    <item
+        android:id="@+id/Upload"
+        android:title="Upload"
+        android:icon="@drawable/ic_baseline_drive_folder_upload_24"/>
+
+<!--    <item-->
+<!--        android:id="@+id/copylink"-->
+<!--        android:icon="@drawable/ic_baseline_link_24"-->
+<!--        android:title="Copy link" />-->
+
+
+
+    <item
+        android:id="@+id/report"
+        android:icon="@drawable/ic_baseline_flag_24"
+        android:title="Report" />
+
+
+<!--        <item-->
+<!--            android:id="@+id/setting"-->
+<!--            android:icon="@drawable/ic_baseline_settings_24"-->
+<!--            android:title="setting" />-->
+
+
+
+</menu>

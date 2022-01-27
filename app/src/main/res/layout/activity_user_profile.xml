@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".UserProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayout1"
+        android:orientation="horizontal">
+
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/imageview"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_baseline_person_24"
+        android:background="@drawable/rounded_user_image"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/username"
+        android:text="Your name"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:id="@+id/emailid"
+                android:text="Your email id"
+                android:textColor="@color/white"
+                android:layout_marginStart="20dp"
+                android:textSize="12sp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/uniqueid"
+                android:text=""
+                android:textColor="@color/white"
+                android:layout_marginStart="20dp"
+                android:textSize="12sp"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/editprofilebutton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/linearlayout1"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="28dp"-->
+<!--        android:backgroundTint="@color/purple_500"-->
+<!--        android:text="edit profile"-->
+<!--        app:cornerRadius="30dp" />-->
+
+
+    <Button
+        android:id="@+id/logoutbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_500"
+        android:text="Log Out"
+        app:cornerRadius="30dp" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/logoutbutton"
+        android:layout_marginTop="16dp"
+        android:background="@color/white" />
+
+
+
+
+
+
+    <!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0.5dp"-->
+<!--        android:layout_below="@id/editprofilebutton"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:background="@color/white" />-->
+
+
+
+</RelativeLayout>

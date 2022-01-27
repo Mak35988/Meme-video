@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mayurrai.youtubepaisa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/utubeshortlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/utubeshortlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fab_Bottom_app_bar"
+        android:usesCleartextTraffic="true">
+
+
+        <activity
+            android:name="com.mayurrai.youtubepaisa.UserProfileActivity"
+            android:exported="true"
+            android:label="User Proflie "
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name="com.mayurrai.youtubepaisa.fakeActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode"
+            android:exported="true"
+            android:noHistory="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mayurrai.youtubepaisa.NotificationActivity"
+            android:exported="true"
+            android:noHistory="true" />
+        <activity
+            android:name="com.mayurrai.youtubepaisa.SigningActivity"
+            android:exported="true"
+            android:noHistory="true" /> <!--  -->
+        <!-- <activity -->
+        <!-- android:name=".SplashActivity" -->
+        <!-- android:label=" Signing User" -->
+        <!-- android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" -->
+        <!-- android:exported="true" -->
+        <!-- > -->
+        <activity
+            android:name="com.mayurrai.youtubepaisa.SplashActivity"
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

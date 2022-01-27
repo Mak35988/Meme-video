@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_corner"
+    tools:context=".NotificationActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Report Video"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- add RadioGroup which contain the many RadioButton-->
+    <RadioGroup
+        android:layout_marginTop="60dp"
+        android:id="@+id/groupradio"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- In RadioGroup create the 1 Radio Button-->
+        <!-- like this we will add some more Radio Button-->
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radia_id1"
+            android:text="Sexual content"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radia_id2"
+            android:text="Violent or repulsive content"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radia_id3"
+            android:text="Hateful or abusive content"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radia_id4"
+            android:text="Harassment or bullying"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radia_id5"
+            android:text="Harmful or dangerous acts"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radia_id6"
+            android:text="Child Abuse"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radia_id7"
+            android:text="infringes my rights"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radia_id8"
+            android:textColor="@color/white"
+            android:text="promotes terrorism"
+            android:textSize="12sp"/>
+
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radia_id9"
+            android:textColor="@color/white"
+            android:text="Spam and Misleading"
+            android:textSize="12sp"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radia_id10"
+            android:textColor="@color/white"
+            android:text="Misguidance content"
+            android:textSize="12sp"/>
+
+    </RadioGroup>
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/groupradio"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Action must be taken on the report of a video this type of content not supported and restricted on this app,and profile of a uploader will be under consederation and report was true than action must be taken on video .  "
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+    <!-- add button For Submit the Selected item-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70dp"
+        />
+
+    <!-- add clear button for clear the selected item-->
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="70dp"
+        android:text="Cancel"
+        android:textColor="@color/teal_700"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

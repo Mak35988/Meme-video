@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "536749948909",
+    "project_id": "utube-short-app",
+    "storage_bucket": "utube-short-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536749948909:android:d513a89ce83c380e57b1e4",
+        "android_client_info": {
+          "package_name": "com.mayurrai.youtubepaisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536749948909-mmuu9vd3vh4aa1sgn1buemom6mhe9eod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mayurrai.youtubepaisa",
+            "certificate_hash": "0e80aa88a2ed3d788672a8a3afcc7ef525eb1ad4"
+          }
+        },
+        {
+          "client_id": "536749948909-piilh2b59nrjgol3rkp5h1q9j59kofj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe1KsPnmC_jFBuOuRG2ubzblrggEyAAJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536749948909-piilh2b59nrjgol3rkp5h1q9j59kofj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+        maven { url "https://jitpack.io" }
+
+
+//        allprojects {
+//            repositories {
+//                google()
+//                maven { url "https://jitpack.io" } // this is the line that you probably need
+//            }
+//        }
+
+    }
+}
+
+rootProject.name = "Youtube Paisa"
+include ':app'
